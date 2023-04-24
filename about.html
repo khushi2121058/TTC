@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel = "stylesheet" type=" text/css" href="about.css">
+     
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+     
+       <!-- NAVBAR -->
+       <header>
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+
+    <ul class="navbar">
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="Slider.html">Services</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+   
+    <div class="main">
+        <a href="#" class="user"><i class="ri-file-user-fill"></i>Login</a>
+        <a href="#" class="user2">Sign up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+
+    <!--AboutUs -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img2.png">
+    </div>
+
+    <div class="about-text">
+        <h3>About Us</h3>
+        <h1>Simplify your Bucket list with Us</h1>
+        <p>Things to Conquer is the ultimate bucketlist platform designed to help users achieve their dreams and live their best life. Our platform allows users to create personalized bucket lists, track their progress, and share experiences with friends or the wider community. We provide curated lists and suggestions for new experiences or goals, resources to plan and prepare, and social networking features to connect with like-minded individuals. Our goal is to inspire and motivate users to conquer their bucket lists and live a life filled with meaningful experiences and unforgettable memories. Join our community today and start your journey towards a life of fulfillment and adventure!
+    </p>
+    </div>
+</section>
+<a href="about2.html" class="button">More</a>
+
+<!-- VALUE PROPORTION -->
+<div class="value">
+    <h1>OUR VALUE PROPORTION</h1>
+    <div class="line"></div>
+</div>
+  <div class="lists">
+    <div class="circle">
+        <p class="text">Fullfill Bucket List</p>
+    </div>
+    <!-- <div class="para">
+        Want to have better odds at keeping the commitment you made to yourself? Fullfill Your Bucket List With Us.
+    </div> 
+         -->
+    <div class="circle">
+        <p class="text">Upskilling</p>
+    </div>
+    <!-- <div class="para">
+       This platform envision to offer all the skills from programming languages to softwares from Guitar to Stock Market and many more at affordable prices!
+    </div>  -->
+
+        
+    <div class="circle">
+        <p class="text">Affordability</p>
+    </div>
+    <!-- <div class="para">
+        In ambitious world, everyone want to accomplish their bucket list but few are able to do so by introducing affordabiltity we are half way done.
+    </div>  -->
+</div> 
+<div class="detail">
+   <div class="para">
+        Want to have better odds at keeping the commitment you made to yourself? Fullfill Your Bucket List With Us.
+    </div> 
+     <div class="para">
+       This platform envision to offer all the skills from programming languages to softwares from Guitar to Stock Market and many more at affordable prices!
+    </div>
+     <div class="para">
+        In ambitious world, everyone want to accomplish their bucket list but few are able to do so by introducing affordabiltity we are half way done.
+    </div>  
+</div>
+
+    
+
+
+ <!-- JAVASCRIPT -->
+ <script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+    }
+</script>
+
+
+</body>
+</html>

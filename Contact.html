@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel = "stylesheet" type=" text/css" href="Contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+
+    <ul class="navbar">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Slider.html">Services</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+   
+    <div class="main">
+        <a href="#" class="user"><i class="ri-file-user-fill"></i>Login</a>
+        <a href="#" class="user2">Sign up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+<!-- contact form -->
+<!-- <section class="contact"> -->
+ <div class="container">  
+ <div class="text">
+    We would love to hear from you...</div>
+    <div class="pic"><img src="image 8.png"></div>
+
+
+ <div class="contactForm">
+    <form>
+     <div class="inputBox">
+        <label for="Name">Email</label>
+                <input type="text" class="form-control" name="Name" id="Name"  value="" required>
+     </div>
+     <div class="inputBox">
+        <label for="Gmail">Subject</label>
+                <input type="email" class="form-control" name="Gmail" id="Gmail"  value=""required>
+     </div>
+     <div class="inputBox">
+        <label for="MESSAGE">Message</label>
+              <textarea name="Message" class="form-control" name="MESSAGE" id="MESSAGE" rows="5" value=""required></textarea>
+     </div>
+     <div class="inputBox">
+        <input type="submit" value="Submit"  class="btn btn-primary btn-lg btn-block">
+     </div>
+   </form>
+ </div> 
+ </div> 
+
+   
+
+  <!-- Navbar JS -->
+<script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+}
+</script>
+    
+    
+</body>
+</html>

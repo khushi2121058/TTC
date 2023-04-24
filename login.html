@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel = "stylesheet" type=" text/css" href="login.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+
+    <ul class="navbar">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Slider.html">Services</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+   
+    <div class="main">
+        <a href="login.html" class="user"><i class="ri-file-user-fill"></i>Login</a>
+        <a href="#" class="user2">Sign up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+<!-- JAVASCRIPT -->
+<script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+    }
+</script>
+
+<!-- FORM -->
+<div class="container">
+    <div class="text">Welcome Back</div>
+    <div class="image">
+    <img src="Stuck at Home Secured.png">
+    </div>
+</div>
+    <form class="flex-conatiner">
+        
+        <lable for="username">Email</lable>
+        <input type="text" id="Email"></input>
+        <label for="password">Password</label>
+        <input type="password" id="password"></input>
+         
+        <button>SIGN IN</button>
+        <p><center>New to our services? <b><a href="#">Sign up</a></b></center></p>
+
+        <h5 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</h5>
+
+
+        <div class="options">
+            <div><img src="Rectangle 10.png"></i>&nbsp;&nbsp;&nbsp;Google</div>
+            <div><img src="Vector.png"></i>&nbsp;&nbsp;&nbsp;Facebook</div>
+        </div>
+
+    </form>
+
+</body>
+</html>

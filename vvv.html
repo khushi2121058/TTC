@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login2</title>
+
+    <link rel="stylesheet" href="vvv.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- SWIPER CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8.4.6/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+
+    <ul class="navbar">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Slider.html">Services</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+   
+    <div class="main">
+        <a href="login.html" class="user"><i class="ri-file-user-fill"></i>Login</a>
+        <a href="#" class="user2">Sign up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+<!-- contact form -->
+ 
+<div class="text">
+    <h1>Welcome Back</h1>
+     <div class="pic"><img src="Stuck at Home Secured.png"></div>
+  </div>
+ 
+<div class="container">
+  <form action="#">
+      <div class="card">
+          <div class="card-box">
+              <span class="details">Email</span>
+              <input type="text">
+          </div>
+          <div class="card-box">
+              <span class="details">Password</span>
+              <input type="email">
+          </div>
+      </div>
+    
+
+          <button>SIGN IN</button>
+  <p><center>New to our services? <b><a href="#">Login</a></b></center></p><br>
+    <h5 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</h5>
+
+
+    <div class="options">
+        <div><img src="google.png"></i>&nbsp;&nbsp;&nbsp;Google</div>
+        <div><img src="fb.png"></i>&nbsp;&nbsp;&nbsp;Facebook</div>
+    </div>
+
+</form>
+   
+
+  <!-- Navbar JS -->
+<script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+}
+</script>
+    
+    
+</body>
+</html>
